@@ -2,8 +2,8 @@
 [build]
   base = "web-dev/L4/Task5"
   command = "npm run build"
-  publish = "web-dev/L4/Task5/dist"
-  functions = "web-dev/L4/Task5/netlify/functions"
+  publish = "dist"
+  functions = "netlify/functions"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
