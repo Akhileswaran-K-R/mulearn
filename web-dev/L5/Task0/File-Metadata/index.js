@@ -21,8 +21,8 @@ app.post("/api/fileanalyse", upload.single("upfile"), (req, res) => {
   }
 
   const fileInfo = {
-    filename: req.file.originalname,
-    mimetype: req.file.mimetype,
+    name: req.file.originalname,
+    type: req.file.mimetype,
     size: req.file.size,
   };
 
